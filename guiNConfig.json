@@ -1,0 +1,78 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "Paste Sever Here",
+      "port": 443,
+      "id": "8def8467-5b80-4cb9-8475-96f704a90d32",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "SahiDemon",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "true",
+      "configType": 1,
+      "testResult": "",
+      "subid": "",
+      "flow": ""
+    }
+  ],
+  "muxEnabled": false,
+  "domainStrategy": "IPIfNonMatch",
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysProxyType": 0,
+  "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": "",
+  "defAllowInsecure": true,
+  "subItem": [
+    {
+      "id": "17f80dcc-03fe-4c21-96bb-966731fd2e6d",
+      "remarks": "import sub",
+      "url": "https://m.facebook.com/",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainSize": "968, 681",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 80,
+      "remarks": 127,
+      "address": 133,
+      "port": 50,
+      "security": 90,
+      "network": 70,
+      "subRemarks": 50,
+      "testResult": 70
+    }
+  },
+  "rules": [],
+  "coreType": 0
+}
